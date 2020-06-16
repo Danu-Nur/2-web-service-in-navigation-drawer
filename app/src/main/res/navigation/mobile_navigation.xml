@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_menu1">
+
+    <fragment
+        android:id="@+id/nav_menu1"
+        android:name="com.example.drawernavigation.ui.menu1.Menu1Fragment"
+        android:label="@string/menu_1"
+        tools:layout="@layout/menu1_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_menu2"
+        android:name="com.example.drawernavigation.ui.menu2.Menu2Fragment"
+        android:label="@string/menu_2"
+        tools:layout="@layout/menu2_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_menu3"
+        android:name="com.example.drawernavigation.ui.menu3.Menu3Fragment"
+        android:label="@string/menu_3"
+        tools:layout="@layout/menu3_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_web1"
+        android:name="com.example.drawernavigation.ui.webservices1.WebServices1Fragment"
+        android:label="@string/web1"
+        tools:layout="@layout/web_services1_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_web2"
+        android:name="com.example.drawernavigation.ui.webservices2.WebServices2Fragment"
+        android:label="@string/web2"
+        tools:layout="@layout/web_services2_fragment"/>
+</navigation>
